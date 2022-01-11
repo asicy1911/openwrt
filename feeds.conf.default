@@ -10,3 +10,4 @@ src-git helloworld https://github.com/fw876/helloworld
 src-git passwall https://github.com/xiaorouji/openwrt-passwall
 src-git OpenClash https://github.com/vernesong/OpenClash
 src-git jerryk https://github.com/jerrykuku/openwrt-package
+src-git lienol https://github.com/Lienol/openwrt-package
