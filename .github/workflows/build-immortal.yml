@@ -47,7 +47,7 @@ jobs:
       run: |
         sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
         sudo -E apt-get -qq update
-        sudo -E apt-get -qq full-upgrade
+        sudo -E apt-get -qq install libmpc-dev automake binutils gperf msmtp swig wget lrzsz libncurses5-dev flex gcc-multilib libreadline-dev squashfs-tools upx-ucl mkisofs xmlto build-essential libssl-dev bison libgmp3-dev libtool autopoint gettext vim python3 antlr3 haveged ecj uglifyjs asciidoc cmake libmpfr-dev g++-multilib nano ninja-build pkgconf libglib2.0-dev help2man autoconf subversion bzip2 patch git fastjar p7zip python-docutils curl qemu-utils re2c scons device-tree-compiler libelf-dev python2.7 xxd cpio lib32gcc1 p7zip-full git-core python3-pip gawk libz-dev ccache libltdl-dev python3-ply ack texinfo rsync upx zlib1g-dev unzip libc6-dev-i386 intltool
         sudo -E apt-get -qq install $(curl -fsSL git.io/depends-ubuntu-1804)
         sudo -E apt-get -qq autoremove --purge
         sudo -E apt-get -qq clean
