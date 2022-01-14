@@ -2,3 +2,7 @@ src-git packages https://github.com/immortalwrt/packages.git;openwrt-21.02
 src-git luci https://github.com/immortalwrt/luci.git;openwrt-21.02
 src-git routing https://github.com/openwrt/routing.git;openwrt-21.02
 src-git telephony https://github.com/openwrt/telephony.git;openwrt-21.02
+src-git helloworld https://github.com/fw876/helloworld
+src-git passwall https://github.com/xiaorouji/openwrt-passwall
+src-git OpenClash https://github.com/vernesong/OpenClash
+src-git jerryk https://github.com/jerrykuku/openwrt-package
