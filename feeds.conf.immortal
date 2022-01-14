@@ -5,4 +5,3 @@ src-git telephony https://github.com/openwrt/telephony.git;openwrt-21.02
 src-git helloworld https://github.com/fw876/helloworld
 src-git passwall https://github.com/xiaorouji/openwrt-passwall
 src-git OpenClash https://github.com/vernesong/OpenClash
-src-git jerryk https://github.com/jerrykuku/openwrt-package
